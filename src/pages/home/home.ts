@@ -156,7 +156,7 @@ export class HomePage {
       .attr('height', this.height)
       .attr('clip-path', 'url(#clip)')
       .attr("d", this.area)
-      .style("fill", "black");
+      .style("fill", "#61b2a7");
 
     this.focus.append("g")
       .attr("class", "axis axis--x axis--bar-chart")
